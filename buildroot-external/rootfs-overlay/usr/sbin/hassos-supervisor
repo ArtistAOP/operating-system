@@ -80,7 +80,7 @@ if [ -z "${SUPERVISOR_CONTAINER_ID}" ]; then
         -e SUPERVISOR_SHARE=${SUPERVISOR_DATA} \
         -e SUPERVISOR_NAME=hassio_supervisor \
         -e SUPERVISOR_MACHINE=${SUPERVISOR_MACHINE} \
-        "${SUPERVISOR_IMAGE}:latest"
+        "${SUPERVISOR_IMAGE}:2021.04.1"
 fi
 
 # Run supervisor
